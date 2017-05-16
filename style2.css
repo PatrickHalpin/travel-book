@@ -1,0 +1,94 @@
+@font-face 
+{
+    font-family: droidSerif;
+    src: url(fonts/DroidSerif.ttf);
+}
+
+@font-face 
+{
+    font-family: hNova;
+    src: url(fonts/regular.otf);
+}
+#header
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fffeee;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position:center center;
+    background-image: url(images/header.jpg);
+}
+
+#logo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+     width: 50vw;
+    height: 50vh;
+}
+
+@media screen and (max-width: 800px)
+ {
+   #logo
+   { 
+        width: 300px;
+        height: 200px;
+   }
+}
+
+#input
+{
+    font-family: hNova;
+    font-size: 20;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #1eaaf1;
+    padding-top:5%;
+    padding-bottom: 5%;
+    color: white;
+}
+
+#inputText
+{
+    color: black;
+    font-family: hNova;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border:none;
+}
+
+#submit
+{
+    border: none;
+    border-bottom: 3px solid #1eaaf1;
+    background-color: Transparent;
+    color: white;
+    font-size: 20;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: hNova;
+}
+
+#submit:hover
+{
+    border-bottom: 3px solid white;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,290 @@
+#pro
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10%;
+     border-radius: 50%;
+
+}
+
+#pro:hover
+{
+    border:3px solid #1eaaf1;
+
+}
+
+#sub
+{
+    padding: 0;
+    background-color: #1eaaf1;
+    text-align:center;
+    padding-top: 7px;
+    font-size: 17;
+}
+
+#sub2
+{
+    padding: 0;
+    height: 37px;
+
+    background-color: #1eaaf1;
+    text-align:center;
+    padding-top: 7px;
+    font-size: 17;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+#t
+{
+    background-color: white;
+    margin-bottom: 5%;
+    padding-top: 2%;
+    border-bottom: 2px solid #e3e3e4;
+    border-right: 2px solid #e3e3e4;
+}
+
+@font-face 
+{
+    font-family: droidSerif;
+    src: url(fonts/DroidSerif.ttf);
+}
+
+@font-face 
+{
+    font-family: hNova;
+    src: url(fonts/regular.otf);
+}
+
+#d
+{
+    background-color: #f4f5f6;
+}
+
+#space
+{
+    height: 15vh;
+}
+
+#as
+{
+    color: white;
+    font-family: hNova;
+/*    border-bottom: 5px solid #f01c75;
+*/  
+      border-bottom: 3px solid white;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#as:hover
+{
+    font-family: hNova;
+    text-decoration: none;
+}
+
+#a
+{
+    color: white;
+    font-family: hNova;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#a:hover
+{
+    font-family: hNova;
+    text-decoration: none;
+    /*padding-bottom: 7px;
+    border-bottom: 5px solid red;*/
+    padding-bottom: 7px;
+    border-bottom: 3px solid #e3e3e4;
+}
+
+#nav
+{
+/*    border-bottom: 3px solid #ed2c67;
+*/    overflow: hidden;
+    text-align:center;
+    background-color: #1eaaf1;
+    height: 25vh;
+    padding-top: 10vh;
+    width: 100vw;
+/*    position: fixed;
+*/    z-index: 100;
+    color: white;
+    font-size: 40;
+    font-family: hNova;
+}
+
+
+
+#men
+{
+   font-family: hNova; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: Transparent;
+    margin-bottom: 10%;
+    font-size: 20;
+}
+
+#inputT
+{
+    font-family: hNova;
+
+    border:2px solid #e3e3e4;
+    font-size: 20;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: Transparent;
+}
+
+#inputP
+{
+    font-family: droidSerif;
+    width: 90%;
+    height: 25vh;
+    border:2px solid #e3e3e4;
+    font-size: 20;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+/*    text-align: center;
+*/    background-color: Transparent;
+}
+
+#submit
+{
+    border:none;
+    background-color: Transparent;
+    font-size: 20;
+    color: black;
+    padding-left:1%;
+    padding-right:1%;
+    font-family: hNova;
+    border-bottom: 3px solid white;
+}
+#submit:hover
+{
+    border-bottom: 3px solid #1eaaf1;
+}
+#home
+{
+    background-color: white;
+}
+#welcome
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    text-align: center;
+    font-family: hNova;
+    color: black;
+    padding-bottom: 2%;
+}
+
+#title
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    text-align: center;
+    font-family: hNova;
+    color: black;
+}
+
+#post
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    text-align: justify;
+    font-family: droidSerif;
+    font-size: 20;
+    color: black;
+    padding-bottom: 25%;
+    border-bottom: 2px solid #e3e3e4;
+}
+
+#un
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    text-align: center;
+    font-family: droidSerif;
+    font-size: 15;
+    color: black;
+}
+
+#header
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fffeee
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position:center center;
+    background-image: url(images/header.jpg);
+}
+
+#btn
+{
+    text-align: center;
+    color: white;
+    margin-top: 3vh;
+    font-family: hNova;
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1eaaf1;
+    border-top: 3px solid #1eaaf1;
+    border-bottom: 3px solid #1eaaf1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#btn:hover
+{
+    text-decoration:none;
+    border-top: 3px solid #1eaaf1;
+    border-bottom: 3px solid white;
+}
+
+#btns
+{
+}
+
+#logo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+     width: 50vw;
+    height: 50vh;
+}
+
+@media screen and (max-width: 800px)
+ {
+   #logo
+   { 
+        width: 300px;
+        height: 200px;
+   }
+}
+
+
+
